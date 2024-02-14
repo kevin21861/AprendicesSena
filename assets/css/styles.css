@@ -1,0 +1,145 @@
+body {
+    font-family: 'Montserrat', sans-serif; /* Cambié la fuente a Montserrat para un aspecto más moderno */
+    background-color: #bbd1c2; /* Fondo más claro */
+    color: #333; /* Color de texto principal */
+}
+
+.container {
+    margin-top: 40px; /* Mayor espacio en la parte superior */
+}
+
+.btn-success {
+    background-color: #000000; /* Azul más claro */
+    color: #fff; /* Texto blanco */
+    border: none;
+    padding: 14px 28px; /* Aumenté el padding para hacerlo más espaciado */
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px; /* Bordes más redondeados */
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+    background-color: #656565; /* Cambio de color al pasar el ratón */
+}
+
+/* Estilos para el formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Mayor espacio entre elementos del formulario */
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Estilos para las alertas */
+.alert {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-top: 30px; /* Mayor espacio entre la alerta y otros elementos */
+    border-radius: 10px; /* Bordes más redondeados */
+    background-color: #4caf50; /* Verde para alertas positivas */
+    color: #fff; /* Texto blanco */
+    border: 1px solid #43a047;
+}
+
+.alert img {
+    margin-right: 15px;
+}
+
+/* Estilos para el botón de cierre en la alerta */
+.btn-close {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+}
+
+.red {
+    color: #e74c3c; /* Rojo más intenso */
+}
+
+/* Estilos para los íconos en la alerta */
+.icon {
+    width: 28px; /* Íconos un poco más grandes */
+    height: 28px;
+    margin-right: 15px;
+}
+
+/* Estilos para la fila de botones */
+.row-buttons {
+    display: flex;
+    justify-content: space-around; /* Distribución más uniforme de los botones */
+}
+
+/* Estilos para los botones en la fila */
+.col-2 {
+    flex: 0 0 48%;
+}
+
+/* Estilos para los enlaces */
+a {
+    text-decoration: none;
+    color: #3498db;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+/* Nuevos estilos agregados al final del archivo */
+
+.container mt-4 {
+    max-width: 1000px; /* Ajusta el ancho máximo del contenedor según tus necesidades */
+}
+
+h2 {
+    color: #ffffff; /* Color azul para los títulos */
+    margin-bottom: 30px; /* Mayor espacio debajo de los títulos */
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 30px; /* Mayor espacio debajo de la tabla */
+    border-collapse: collapse;
+    border-radius: 10px; /* Bordes más redondeados */
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.table th,
+.table td {
+    padding: 16px; /* Mayor espacio interno en celdas de la tabla */
+    text-align: left;
+    border-bottom: 1px solid #ecf0f1;
+}
+
+.table th {
+    background-color: #000000; /* Azul para encabezados de la tabla */
+    font-weight: bold;
+    color: #fff;
+}
+
+.table tbody tr:hover {
+    background-color: #ecf0f1; /* Color de fondo al pasar el ratón sobre filas de la tabla */
+}
+
+/* Estilos para las celdas con información del aprendiz */
+.table tbody tr td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Añade un pequeño espacio entre las filas */
+.table tbody tr + tr {
+    margin-top: 15px; /* Menor espacio entre filas */
+}
+
+
+
